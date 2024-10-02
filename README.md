@@ -8,6 +8,8 @@ Test app publishing and consuming kafka messages with avro in Java
 # Requirements 
 - Java 8 installed
 - Gradle (alternatively you can use the wrapper here gradlew)
+- Docker 
+- Docker compose 
 
 # Run
 Make sure the project compiles.
@@ -23,3 +25,5 @@ cd kafka-docker
 
 docker-compose up
 ```
+
+After that you can run the GenericRecordConsumer and GenericRecordProducer main methods to send and receive messages.
