@@ -1,6 +1,8 @@
 # kafka-avro-performance
 Test app publishing and consuming kafka messages with avro in Java
 
+![BUILD](https://github.com/github/docs/actions/workflows/gradle-test.yml/badge.svg)
+
 # Requirements 
 - Java 8 installed
 - Gradle (alternatively you can use the wrapper here gradlew)
