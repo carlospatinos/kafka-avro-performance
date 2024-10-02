@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "DataMessage",
+  "namespace": "kafka.avro.performance",
+  "fields": [
+    { "name": "content", "type": "string", "doc": "Message content" },
+    {
+      "name": "date_time",
+      "type": "string",
+      "doc": "Datetime when the message was generated"
+    }
+  ]
+}
